@@ -13,6 +13,7 @@ setup(
     python_requires=">=3.6",
     description="Package for async parsing CB rates",
     long_description=long_description,
+    long_description_content_type="text/markdown",
     author="Alena Polyakova",
     author_email="alenapoliakova2003@gmail.com",
     packages=find_packages(),
