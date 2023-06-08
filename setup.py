@@ -9,14 +9,14 @@ with open("README.md", "r", encoding="utf-8") as file:
 
 setup(
     name="async-cb-rate",
-    version="1.0.0",
+    version="1.0.1",
     python_requires=">=3.6",
     description="Package for async parsing CB rates",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="Alena Polyakova",
     author_email="alenapoliakova2003@gmail.com",
-    packages=find_packages(),
+    packages=find_packages(exclude=(".github/*",)),
     install_requires=required,
     include_package_data=True,
     url="https://github.com/alenapoliakova/async-cb-rate",
